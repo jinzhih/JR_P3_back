@@ -27,7 +27,7 @@ async function addService(req, res) {
 
 async function getService(req, res) {
     const{id} = req.params;
-    const service = await Service.findById(id).populate('Tradie', 'tradieName radieEmail tradiePhone' );
+    const service = await Service.findById(id).populate('tradie', 'tradieName radieEmail tradiePhone' );
     if(!service){
         return res.status(404),json('service not found');
     }

@@ -35,6 +35,8 @@ const schema = new mongoose.Schema({
         type:String,
         required: true,
     },
+
+    tradie: { type: mongoose.Schema.Types.ObjectId, ref: 'Tradie' },
 });
 
 const Model = mongoose.model('Service', schema);
