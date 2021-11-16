@@ -21,7 +21,7 @@
   "homepage": "https://github.com/jinzhih/JR_P3_back#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "aws-sdk": "^2.714.2",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
